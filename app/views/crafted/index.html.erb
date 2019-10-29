@@ -36,3 +36,14 @@
     </div>
   </div>
 </div>
+
+<br />
+<% @beers.each do |beer| %>
+  <div>
+    <h1><%= beer.name %></h1><br />
+    <i><%= beer.brewery %></i><br />
+    <p><%= beer.description %></p><br />
+  </div>
+
+  <hr />
+<% end %>
