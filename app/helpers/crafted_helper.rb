@@ -1,0 +1,2 @@
+module CraftedHelper
+end
