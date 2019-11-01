@@ -1,7 +1,30 @@
+<div class="hero"> 
+    <br />
+    <div class="frosty col-10 offset-1">
+    <br />
+        <h1>    beer</h1> 
+        <h2>    /bir/</h2>   
+        <h2><i>noun</i></h2>  
+        <h3>    an alcoholic drink made from yeast-fermented malt flavored with hops</h3>
+        <h4><i> "a pint of beer"</i></h4>
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          
+    </div>
+
 <% @beers.each do |beer| %>
-<div>
+<div class="booyah-box col-10 offset-1">
   <h1><%= beer.name %></h1>
-  <i><%= beer.brewery %></i><br />
+  <br>
+  <br>
+  <i><%= beer.brewery %></i><br /><br /> 
   <p><%= beer.description %></p><br />  
 </div>
 
